@@ -3,9 +3,9 @@
 #include <stdio.h>
 int main() 
 {
-    float distance;
-    float fuelused;
-    float efficiency;
+    float distance; //total distance covered
+    float fuelused; // showing fuel used
+    float efficiency; // shows the efficiency
     printf("Enter distance (km): ");
     scanf("%f", &distance);
     printf("Enter fuelused (litres): ");
