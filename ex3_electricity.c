@@ -13,4 +13,3 @@ int main (){
 	printf("total electricitybill is %.2f UGX",totalelectricitybill);
 	return 0;
 }
-
