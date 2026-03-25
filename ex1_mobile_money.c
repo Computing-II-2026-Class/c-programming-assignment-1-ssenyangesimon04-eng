@@ -4,10 +4,10 @@
 #include <stdio.h>
 int main()
 {
-float amount; 
-float feepercent; 
-float feeamount; 
-float totalDeducted; 
+float amount;  // total amount to be put
+float feepercent;  // transaction fee in percentage
+float feeamount;  // transaction fee
+float totalDeducted;  //total momey deducted from your account
 printf("Enter amount to send:\n",amount);
 scanf("%f", &amount);
 printf("Enter the percentage for the transaction transaction fee :\n");
